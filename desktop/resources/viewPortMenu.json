@@ -1,182 +1,44 @@
  [{
-         "text": "CV Complet",
+         "text": "Curriculum vitae",
          "smallText": "CV",
          "iconCls": "x-fa fa-file-invoice",
          "xtype": "cvall",
          "leaf": true
 
+     }, {
+         "text": "Carte",
+         "iconCls": "x-fa fa-map",
+         "xtype": "leafletmap",
+         "leaf": true
      },
      {
-         "text": "GED",
-         "smallText": "Ged",
+         "text": "Demo navigation",
+         "smallText": "Demo",
          "iconCls": "x-fa fa-file-invoice",
-         "view": "viewged",
          "children": [{
-             "text": "Lien Ged N°1",
-             "view": "viewged1",
-             "leaf": true
-         }, {
-             "text": "Lien Ged N°2",
-             "view": "viewged2",
-             "leaf": true
-         }, {
-             "text": "Lien Ged N°3",
-             "view": "viewged3",
-             "leaf": true
-         }]
-     }, {
-         "text": "PLANNING avec un texte très long qui déborde",
-         "smallText": "Planning",
-         "iconCls": "x-fa fa-home",
-         "view": "viewplanning",
-         "children": [{
-             "text": "Lien Planning N°1",
-             "view": "viewplanning1",
-             "leaf": true
-         }, {
-             "text": "Lien Planning N°2",
-             "view": "viewplanning2",
-             "leaf": true
-         }, {
-             "text": "Lien Planning N°3",
-             "view": "viewplanning3",
+             "text": "Niveau 2",
+             "smallText": "N2",
              "children": [{
-                 "text": "PROJETS",
-                 "view": "viewged",
-                 "children": [{
-                     "text": "Projet N°1",
-                     "view": "viewged1",
-                     "leaf": true
-                 }, {
-                     "text": "Projet N°2",
-                     "view": "viewged2",
-                     "leaf": true
-                 }, {
-                     "text": "Projet N°3",
-                     "view": "viewged3",
-                     "leaf": true
-                 }]
-             }, {
-                 "text": "RESSOURCES",
-                 "view": "viewplanning",
-                 "children": [{
-                     "text": "Ressource N°1",
-                     "view": "viewplanning1",
-                     "leaf": true
-                 }, {
-                     "text": "Ressource N°2",
-                     "view": "viewplanning2",
-                     "leaf": true
-                 }, {
-                     "text": "Ressource N°3",
-                     "view": "viewplanning3",
-                     "leaf": true
-                 }]
-             }, {
-                 "text": "VISITE",
-                 "view": "viewvisit",
-                 "floated": true,
-                 "children": [{
-                     "text": "Lien Visite N°1",
-                     "view": "viewvisit1",
-                     "leaf": true
-                 }, {
-                     "text": "Lien Visite N°2",
-                     "view": "viewvisit2",
-                     "leaf": true
-                 }, {
-                     "text": "Lien Visite N°3",
-                     "view": "viewvisit3",
-                     "leaf": true
-                 }]
+                 "text": "Niveau 3",
+                 "smallText": "N3",
+                 "leaf": true
              }]
-         }]
-     }, {
-         "text": "VISITE",
-         "smallText": "Visite",
-         "iconCls": "x-fa fa-home",
-         "view": "viewvisit",
-         "children": [{
-             "text": "Lien Visite N°1",
-             "view": "viewvisit1",
+         }, {
+             "text": "Niveau 2.1",
+             "smallText": "N2.1",
              "leaf": true
          }, {
-             "text": "Lien Visite N°2",
-             "view": "viewvisit2",
-             "leaf": true
-         }, {
-             "text": "Lien Visite N°3",
-             "view": "viewvisit3",
+             "text": "Niveau 2.2",
+             "smallText": "N2.2",
              "leaf": true
          }]
      }, {
-         "text": "No child",
-         "smallText": "NoChild",
-         "iconCls": "x-fa fa-home",
-         "view": "nochild",
+         "xtype": "menuseparator",
          "leaf": true
-     }, {
-         "xtype": "menuseparator"
-     }, {
-         "text": "Administration",
-         "floated": true,
-         "smallText": "Admin",
-         "iconCls": "x-fa fa-cog",
-         "children": [{
-             "text": "Societés",
-             "view": "viewvisit1",
-             "leaf": true
-         }, {
-             "text": "Sites",
-             "view": "viewvisit2",
-             "children": [{
-                 "text": "Lien Sites N°1",
-                 "view": "viewged1",
-                 "leaf": true
-             }, {
-                 "text": "Lien Sites N°2",
-                 "view": "viewged2",
-                 "leaf": true
-             }, {
-                 "text": "Lien Sites N°3",
-                 "view": "viewged3",
-                 "leaf": true
-             }]
-         }, {
-             "text": "Utilisateurs",
-             "view": "viewvisit3",
-             "leaf": true
-         }, {
-             "text": "Rôles",
-             "view": "viewvisit3",
-             "leaf": true
-         }, {
-             "text": "Traductions",
-             "view": "viewvisit3",
-             "leaf": true
-         }, {
-             "text": "Proprietes des modèles",
-             "view": "viewvisit3",
-             "leaf": true
-         }, {
-             "text": "Generateurs des pages",
-             "group": "Outils",
-             "view": "viewvisit3",
-             "leaf": true
-         }, {
-             "text": "Generateurs de dashboards",
-             "group": "Outils",
-             "view": "viewvisit3",
-             "leaf": true
-         }, {
-             "text": "Outil de chématisation",
-             "group": "Outils",
-             "view": "viewvisit3",
-             "leaf": true
-         }]
      }, {
          "text": "Aide",
          "iconCls": "x-fa fa-question-circle",
-         "leaf": true
+         "leaf": true,
+         "xtype": "about"
      }
  ]
